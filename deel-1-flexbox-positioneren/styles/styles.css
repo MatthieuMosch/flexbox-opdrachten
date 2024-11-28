@@ -1,1 +1,5 @@
 /*Schrijf hier jouw CSS*/
+ul{
+    display: flex;
+    justify-content: space-between;
+}
