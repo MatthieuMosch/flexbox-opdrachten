@@ -1,9 +1,15 @@
 /*Schrijf hier jouw CSS*/
+
+/* O P D R A C H T  1 */
 .opdracht-1 ul{
     display: flex;
     flex-direction: row; /*default, not required, just to be clear*/
     justify-content: space-between;
 }
+
+/* E I N D E  O P D R A C H T  1 */
+
+/* O P D R A C H T  2 */
 
 .opdracht-2 ul{
     display: flex;
@@ -14,6 +20,10 @@
     flex-basis: 100px;
     flex-grow: 1;
 }
+
+/* E I N D E  O P D R A C H T  2 */
+
+/* O P D R A C H T  3 */
 
 .opdracht-3 ul{
     display: flex;
@@ -32,6 +42,10 @@
     align-self: flex-end;
 }
 
+/* E I N D E  O P D R A C H T  3 */
+
+/* O P D R A C H T  4 */
+
 .opdracht-4 ul{
     display: flex;
     flex-direction: row; /*default, not required, just to be clear*/
@@ -41,6 +55,10 @@
 .opdracht-4 li{
     flex-grow: 1;
 }
+
+/* E I N D E  O P D R A C H T  4 */
+
+/* O P D R A C H T  5 */
 
 .opdracht-5{
     display: flex;
@@ -60,7 +78,7 @@
     justify-content: space-between;
 }
 
-.opdracht-5 ul:first-child{
+.opdracht-5 ul:first-child{  /*first-child not required as the others would overwrote default li*/
     align-items: flex-start; /*default, not required, just to be clear*/
 }
 
@@ -71,3 +89,5 @@
 .opdracht-5 ul:last-child{
     align-items: flex-end;
 }
+
+/* E I N D E  O P D R A C H T  5 */
