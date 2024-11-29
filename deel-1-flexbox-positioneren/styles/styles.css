@@ -1,11 +1,13 @@
 /*Schrijf hier jouw CSS*/
 .opdracht-1 ul{
     display: flex;
+    flex-direction: row; /*default, not required, just to be clear*/
     justify-content: space-between;
 }
 
 .opdracht-2 ul{
     display: flex;
+    flex-direction: row; /*default, not required, just to be clear*/
 }
 
 .opdracht-2 li{
@@ -28,4 +30,14 @@
 
 .opdracht-3 li:last-child{ /*could also be 3rd child*/
     align-self: flex-end;
+}
+
+.opdracht-4 ul{
+    display: flex;
+    flex-direction: row; /*default, not required, just to be clear*/
+    flex-wrap: wrap;
+}
+
+.opdracht-4 li{
+    flex-grow: 1;
 }
