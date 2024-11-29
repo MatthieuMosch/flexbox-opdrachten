@@ -6,10 +6,26 @@
 
 .opdracht-2 ul{
     display: flex;
-    justify-content: center;
 }
 
 .opdracht-2 li{
     flex-basis: 100px;
     flex-grow: 1;
+}
+
+.opdracht-3 ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.opdracht-3 li:first-child{ /*first-child not required as the others would overwrote default li*/
+    align-self: flex-start; /*default, not required, just to be clear*/
+}
+
+.opdracht-3 li:nth-child(2){
+    align-self: center;
+}
+
+.opdracht-3 li:last-child{ /*could also be 3rd child*/
+    align-self: flex-end;
 }
