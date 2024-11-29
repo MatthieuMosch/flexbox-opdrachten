@@ -41,3 +41,33 @@
 .opdracht-4 li{
     flex-grow: 1;
 }
+
+.opdracht-5{
+    display: flex;
+    flex-direction: column;
+}
+
+.opdracht-5 div{
+    display: flex;
+    flex-direction: row; /*default, not required, just to be clear*/
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.opdracht-5 ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.opdracht-5 ul:first-child{
+    align-items: flex-start; /*default, not required, just to be clear*/
+}
+
+.opdracht-5 ul:nth-child(2){
+    align-items: center;
+}
+
+.opdracht-5 ul:last-child{
+    align-items: flex-end;
+}
