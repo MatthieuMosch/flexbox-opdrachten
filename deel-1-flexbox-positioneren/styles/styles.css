@@ -1,5 +1,15 @@
 /*Schrijf hier jouw CSS*/
-ul{
+.opdracht-1 ul{
     display: flex;
     justify-content: space-between;
+}
+
+.opdracht-2 ul{
+    display: flex;
+    justify-content: center;
+}
+
+.opdracht-2 li{
+    flex-basis: 100px;
+    flex-grow: 1;
 }
