@@ -61,8 +61,8 @@
 /* O P D R A C H T  5 */
 
 .opdracht-5{
-    display: flex;
-    flex-direction: column;
+    display: flex;          /*hot allowed to use for the elements*/
+    flex-direction: column; /*is there another way to grow the height of the div with flex*/
 }
 
 .opdracht-5 div{
