@@ -1,1 +1,52 @@
 /*Schrijf hier jouw CSS*/
+
+/*css reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row; /*default, not required, just to be clear*/
+    height: 100vh;
+}
+
+nav {
+    flex-basis: 20%;
+    flex-grow: 0; /*default, not required, just to be clear*/
+    flex-shrink: 0;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1; /*default, not required, just to be clear*/
+}
+
+header {
+    flex-basis: 100px;
+    flex-grow: 0; /*default, not required, just to be clear*/
+    flex-shrink: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column; /*to make the article grow in height*/
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1; /*default, not required, just to be clear*/
+}
+
+article {
+    flex-basis: 100%;
+}
+
+footer {
+    flex-basis: 100px;
+    flex-grow: 0; /*default, not required, just to be clear*/
+    flex-shrink: 0;
+}
