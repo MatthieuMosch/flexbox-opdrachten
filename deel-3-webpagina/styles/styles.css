@@ -1,1 +1,63 @@
 /*Schrijf hier jouw css*/
+
+/*color declarations*/
+:root {
+    --space-cadet: #151e3fff;
+    --oxford-blue: #030027ff;
+    --beige: #f2f3d9ff;
+    --buff: #dc9e82ff;
+    --old-rose: #c16e70ff;
+}
+
+/*css reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;  /*default, not required, just to be clear*/
+    justify-content: center;
+    background-color: var(--beige);
+    height: 100vh;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    width: 1024px;
+}
+
+header {
+    flex-basis: 100px;
+    text-align: center;
+    flex-grow: 0;  /*default, not required, just to be clear*/
+    flex-shrink: 0;
+}
+
+article {
+    display: flex;
+    flex-direction: row;  /*default, not required, just to be clear*/
+    justify-content: space-around;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: var(--old-rose);
+    max-width: 280px;
+    height: 350px;
+}
+
+p {
+    color: var(--oxford-blue);
+}
+
+footer {
+    flex-basis: 100px; /*this could also be done with a margin but i like to keep the option open for a footer*/
+    flex-grow: 0;  /*default, not required, just to be clear*/
+    flex-shrink: 0;
+}
