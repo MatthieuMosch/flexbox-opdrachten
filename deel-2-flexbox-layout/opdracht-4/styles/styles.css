@@ -1,1 +1,69 @@
 /*Schrijf hier jouw CSS*/
+
+/*css reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row; /*default, not required, just to be clear*/
+    height: 100vh;
+}
+
+nav {
+    flex-basis: 20%;
+    flex-grow: 0; /*default, not required, just to be clear*/
+    flex-shrink: 0;
+}
+
+div.outer-col-2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1; /*default, not required, just to be clear*/
+}
+
+header {
+    flex-basis: 150px;
+    flex-grow: 0; /*default, not required, just to be clear*/
+    flex-shrink: 0;
+}
+
+div.inner-row {
+    display: flex;
+    flex-direction: row; /*default, not required, just to be clear*/
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1; /*default, not required, just to be clear*/
+}
+
+div.inner-col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1; /*default, not required, just to be clear*/
+}
+
+article {
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1; /*default, not required, just to be clear*/
+}
+
+footer {
+    flex-basis: 150px;
+    flex-grow: 0; /*default, not required, just to be clear*/
+    flex-shrink: 0;
+}
+
+aside {
+    flex-basis: 25%;
+    flex-grow: 0; /*default, not required, just to be clear*/
+    flex-shrink: 0;
+}
+
