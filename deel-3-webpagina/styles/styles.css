@@ -7,6 +7,7 @@
     --beige: #f2f3d9ff;
     --buff: #dc9e82ff;
     --old-rose: #c16e70ff;
+    --white: #ffffff;
 }
 
 /*css reset*/
@@ -16,12 +17,44 @@
     box-sizing: border-box;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 body {
     display: flex;
-    flex-direction: row;  /*default, not required, just to be clear*/
-    justify-content: center;
-    background-color: var(--beige);
+    flex-direction: column;
     height: 100vh;
+    background-color: var(--beige);
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row; /*default, not required, just to be clear*/
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: var(--oxford-blue);
+    color: var(--white);
+}
+
+ul {
+    display: flex;
+    flex-direction: row; /*default, not required, just to be clear*/
+    justify-content: space-evenly;
+    list-style: none;
+    width: 300px;
+}
+
+content {
+    display: flex;
+    flex-direction: row; /*default, not required, just to be clear*/
+    justify-content: center;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1; /*default, not required, just to be clear*/
 }
 
 div {
