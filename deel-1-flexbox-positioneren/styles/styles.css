@@ -1,5 +1,12 @@
 /*Schrijf hier jouw CSS*/
 
+/*css reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* O P D R A C H T  1 */
 .opdracht-1 ul {
     display: flex;
@@ -60,28 +67,22 @@
 
 /* O P D R A C H T  5 */
 
-/*
-.opdracht-5 {
-    display: flex; !*hot allowed to use for the elements*!
-    flex-direction: column; !*is there another way to grow the height of the div with flex*!
-}
-*/
-
 .opdracht-5 div {
     display: flex;
     flex-direction: row; /*default, not required, just to be clear*/
     justify-content: space-between;
-    /*flex-grow: 1; !*i need this line and the css rules on the section container (see above)*!*/
-    height: 100%; /*  or i need to set the height of the div this way*/
+    height: 100%; /* div is to small without this but it is no flexbox property*/
+    /*border: 2px dotted red;*/
 }
 
 .opdracht-5 ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /*border: 2px dotted green;*/
 }
 
-.opdracht-5 ul:first-child { /*first-child not required as the others would overwrote default li*/
+.opdracht-5 ul:first-child { /*first-child selector not required as the others would overwrote default li*/
     align-items: flex-start; /*default, not required, just to be clear*/
 }
 
